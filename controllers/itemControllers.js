@@ -1,4 +1,4 @@
-const Item = require("../models/item");
+const Item = require('../models/item'); // Ensure it's lowercase
 
 // Fetch all items where value > 10
 exports.getAllItems = async (req, res) => {
